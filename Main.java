@@ -64,7 +64,7 @@ public class Main {
                 filaB.imprime();
 
             } else if (opcao == 10) {
-                System.out.println("Fazendo o merge das filas A e B:");
+                System.out.println("Fazendo o merge das filas A e B, criando uma fila C:");
                 Fila filaC = Merge.junta(filaA, filaB);
                 filaC.imprime(); // Imprime a fila C (ordenada)
             }
